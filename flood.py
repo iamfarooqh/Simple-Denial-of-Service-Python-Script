@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 
 # Python script to automate Flooding tests.
-# Written by Farooq Mohammad
+# Written by Mr. Farooq Mohammad working as Security Engineer at Nokia.
 # Use the script at your own risk. There is lot much validation that needs to be done here.
+# Thanks to Mr. Haroon Sharif for his contributions to this script.
 
 import sys
 import os
