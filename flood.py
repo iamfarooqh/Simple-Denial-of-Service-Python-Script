@@ -20,7 +20,7 @@ print ("++++++++++ END OF TCP Protocol Scan ++++++++++++++")
 #print("")
 ports = os.popen("/bin/cat  $PWD/TCPSCAN.xml | grep 'portid' |cut -d '=' -f 3 | cut -d '>' -f 1 | cut -d '\"' -f 2 ").read()
 print ports
-for port in ports,:
-    #flood = os.system("/bin/ping  -c %s " %port,)
+for port in ports.split():
+    #flood = os.system("/bin/ping  -c %s " %port)
     print "hello"
     print port
