@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-# Python script to automate Flooding tests of IMPACT.
+# Python script to automate Flooding tests.
 # Written by Farooq Mohammad 
 # Use the script at your own risk
 
